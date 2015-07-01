@@ -24,7 +24,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.tableView registerClass: [TRMessageCell class] forCellReuseIdentifier:@"Cell"];
-}
+    NSLog(@"1243");
+    }
 
 #pragma mark - Table view data source
 
