@@ -26,6 +26,7 @@
     [self.tableView registerClass: [TRMessageCell class] forCellReuseIdentifier:@"Cell"];
     NSLog(@"1243");
     NSLog(@"第二次修改");
+    NSLog(@"第三次修改");
     }
 
 #pragma mark - Table view data source
