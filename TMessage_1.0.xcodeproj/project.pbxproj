@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		80B5B1291ACA0B9A00C76583 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B5B1281ACA0B9A00C76583 /* main.m */; };
 		80B5B12C1ACA0B9A00C76583 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B5B12B1ACA0B9A00C76583 /* AppDelegate.m */; };
-		80B5B12F1ACA0B9A00C76583 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B5B12E1ACA0B9A00C76583 /* ViewController.m */; };
 		80B5B1321ACA0B9A00C76583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B5B1301ACA0B9A00C76583 /* Main.storyboard */; };
 		80B5B1341ACA0B9A00C76583 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B5B1331ACA0B9A00C76583 /* Images.xcassets */; };
 		80B5B1371ACA0B9A00C76583 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80B5B1351ACA0B9A00C76583 /* LaunchScreen.xib */; };
 		80B5B1431ACA0B9A00C76583 /* TMessage_1_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B5B1421ACA0B9A00C76583 /* TMessage_1_0Tests.m */; };
+		80B5B14E1ACA0D6A00C76583 /* TRMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B5B14D1ACA0D6A00C76583 /* TRMessageCell.m */; };
+		80B5B1511ACA0ED900C76583 /* TRMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B5B1501ACA0ED900C76583 /* TRMessageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		80B5B1281ACA0B9A00C76583 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		80B5B12A1ACA0B9A00C76583 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		80B5B12B1ACA0B9A00C76583 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		80B5B12D1ACA0B9A00C76583 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		80B5B12E1ACA0B9A00C76583 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		80B5B1311ACA0B9A00C76583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80B5B1331ACA0B9A00C76583 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		80B5B1361ACA0B9A00C76583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		80B5B13C1ACA0B9A00C76583 /* TMessage_1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMessage_1.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B5B1411ACA0B9A00C76583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80B5B1421ACA0B9A00C76583 /* TMessage_1_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMessage_1_0Tests.m; sourceTree = "<group>"; };
+		80B5B14C1ACA0D6A00C76583 /* TRMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMessageCell.h; sourceTree = "<group>"; };
+		80B5B14D1ACA0D6A00C76583 /* TRMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMessageCell.m; sourceTree = "<group>"; };
+		80B5B14F1ACA0ED900C76583 /* TRMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMessageViewController.h; sourceTree = "<group>"; };
+		80B5B1501ACA0ED900C76583 /* TRMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMessageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +86,10 @@
 			children = (
 				80B5B12A1ACA0B9A00C76583 /* AppDelegate.h */,
 				80B5B12B1ACA0B9A00C76583 /* AppDelegate.m */,
-				80B5B12D1ACA0B9A00C76583 /* ViewController.h */,
-				80B5B12E1ACA0B9A00C76583 /* ViewController.m */,
+				80B5B14C1ACA0D6A00C76583 /* TRMessageCell.h */,
+				80B5B14D1ACA0D6A00C76583 /* TRMessageCell.m */,
+				80B5B14F1ACA0ED900C76583 /* TRMessageViewController.h */,
+				80B5B1501ACA0ED900C76583 /* TRMessageViewController.m */,
 				80B5B1301ACA0B9A00C76583 /* Main.storyboard */,
 				80B5B1331ACA0B9A00C76583 /* Images.xcassets */,
 				80B5B1351ACA0B9A00C76583 /* LaunchScreen.xib */,
@@ -218,8 +223,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80B5B12F1ACA0B9A00C76583 /* ViewController.m in Sources */,
+				80B5B14E1ACA0D6A00C76583 /* TRMessageCell.m in Sources */,
 				80B5B12C1ACA0B9A00C76583 /* AppDelegate.m in Sources */,
+				80B5B1511ACA0ED900C76583 /* TRMessageViewController.m in Sources */,
 				80B5B1291ACA0B9A00C76583 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TMessage_1.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TMessage_1.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -413,6 +421,7 @@
 				80B5B1481ACA0B9A00C76583 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80B5B1491ACA0B9A00C76583 /* Build configuration list for PBXNativeTarget "TMessage_1.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +430,7 @@
 				80B5B14B1ACA0B9A00C76583 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,7 +2,6 @@
 //  AppDelegate.h
 //  TMessage_1.0
 //
-//  Created by xiaoz on 15/3/31.
 //
 //
 
